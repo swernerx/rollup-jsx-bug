@@ -29,9 +29,9 @@ module.exports = Hello;
 ```js
 'use strict';
 
-require('react');
-var reactIntl = require('react-intl');
+var React = require('react');
 
+var reactIntl = require('react-intl');
 var FormattedMessage = reactIntl.FormattedMessage;
 
 function Hello() {
